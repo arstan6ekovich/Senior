@@ -1,0 +1,94 @@
+.header {
+  padding: 20px;
+  position: relative;
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .btn3 {
+      margin-left: 680px;
+      font-family: normal;
+      display: flex;
+      color: white;
+      padding: 10px 20px;
+      background: linear-gradient(
+        106.11deg,
+        rgb(0, 181, 208) 12.673%,
+        rgb(92, 14, 98) 98.765%
+      );
+      border: 1px solid white;
+    }
+    .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      }
+   
+    .nav {
+      ul {
+        display: flex;
+        gap: 32px;
+        align-items: center;
+        justify-content: center;
+        li {
+          a {
+            color: white;
+          }
+        }
+      }
+    }
+
+    .button {
+      display: flex;
+      align-items: center;
+      .btn {
+        /* Support */
+        position: static;
+        border-radius: 20px;
+        /* Автолейаут */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+
+        /* Inside Auto Layout */
+        flex: none;
+        padding: 10px 20px;
+
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 38px;
+        background: rgba(255, 255, 255, 0.095);
+        border: none;
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: center;
+      }
+      .btn2 {
+        padding: 10px 20px;
+        border: none;
+        color: white;
+        /* Frame 41 */
+        position: static;
+        /* Автолейаут */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 38px;
+        border-radius: 96px;
+
+        background: rgb(255, 188, 81);
+      }
+    }
+  }
+}
